@@ -1,0 +1,44 @@
+body{
+    width: 80%;
+    margin: 0 10% 0 10% ;
+}
+
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0; 
+    overflow: hidden;
+}
+nav li{
+    display: inline;
+    float: left;
+}
+nav a{
+    display: block;
+    padding: 8px;
+}
+aside{
+    float: right;
+    width: 10%; 
+    position: sticky;
+}
+aside ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0; 
+}
+article{
+    width: 70%;
+    float: left;
+}
+footer{
+    
+}
+section.Verslagen{
+    
+}
+.container {
+    margin: 0 auto;
+    padding: 0 20px 0 20px;
+    max-width: 900px;
+}
