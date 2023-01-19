@@ -1,35 +1,97 @@
 body{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Trebuchet MS",Helvetica,sans-serif;
     background-color: #E4E4E4;
 }
 article{
     min-height: 80vh;
 }
-/*#ffffff section achtergrond kleur */
 .midden{
     width: 80%;
     margin: 0px auto 0px auto ;
-}
-#start{
-    text-align: center;
-}
-/* voor contact gegevens
-section.contact{
-    float: left;
-    padding: 30px 0 0 50px;
-}
-section{
-    padding: 30px 0 0 50px;
-}*/
-aside{
-    float: right;
-    padding-top: 50px;
 }
 img{
     padding: 2px;
     padding-left: 10px;
     padding-right: 10px;
     padding-bottom: 0px;
+}
+/*  Home page   */
+#FH{
+    display: block;
+    height: 720px;
+    border: solid 2px;
+    border-style: hidden;
+    border-radius: 5%;
+}
+#kaderH{
+    border: solid 2px;
+    border-style: hidden;
+    border-radius: 15px;
+    background-color: #f3f3f3;
+    margin:  15px auto 0px auto ;
+    padding: 15px;
+    width: 1250px;
+    
+}
+#titelH{
+    position: absolute;
+    top: 140px;
+    left: 360px;
+    color: #C31432;
+    font-size: 35px;
+    
+    height: 40px;
+    padding: 15px;
+    text-align: center;
+    
+}
+#kader{
+    position: absolute;
+    top: 170px;
+    left: 360px;
+    background-color: rgba(221, 221, 221, 0.5);
+    border: solid 2px;
+    border-style: hidden;
+    border-radius: 15px;
+    width: 600px;
+    height: 70px;
+}
+/*  Contact */
+.contact{
+    padding: 15px;
+    margin-top: 15px;
+    margin-left: 21.3%;
+    margin-right: 21.3%;
+    background-color: #f3f3f3;
+    height: 482px;
+    width: 875;
+    border: solid 2px;
+    border-style: hidden;
+    border-radius: 15px;
+}
+iframe{
+    margin: 15px;
+}
+#contactMap{
+    float: right;
+    background-color: rgba(221, 221, 221, 0.75);
+    height: 480px;
+    width: 630px;
+    border: solid 2px;
+    border-style: hidden;
+    border-radius: 15px;
+    box-shadow: 0 1px 2px rgb(0 0 0 / 25%);
+}
+#contactInfo{
+    background-color:rgba(221, 221, 221, 0.75);
+    float: left; 
+    height: 480px;
+    width: 200px;
+    padding-left: 5px;
+    border: solid 2px;
+    border-style: hidden;
+    border-radius: 15px;
+    box-shadow: 0 1px 2px rgb(0 0 0 / 25%);
 }
 /*  Navigatie balk  */
 nav ul{
@@ -143,16 +205,10 @@ img.verslagF{
     margin-top: 15px;
     margin-bottom: 15px;
 }
-
-#container{
-    background-color: blue;
-    display: block;
-}
 #teksten{
-    background-color: #ddd;
+    background-color: rgba(221, 221, 221, 0.75);
     float: left;
-    min-width: 70%;
-    max-width: 70%;
+    width: 69%; /*als dit 70% is wilt die niet mee bewegen met de grote van het tabblad???*/
     min-height: 720px;
     max-height: 720px;
     margin-top: 15px;
@@ -163,6 +219,7 @@ img.verslagF{
     border-style: hidden;
     border-radius: 15px;
     padding-left: 5px;
+    box-shadow: 0 1px 2px rgb(0 0 0 / 25%);
 }
 #rechtsV{
     float: right;
@@ -173,23 +230,21 @@ img.verslagF{
     list-style-type: none;
 }
 #foto{
-    background-color: #ddd;  
+    background-color: rgba(221, 221, 221, 0.75);
     min-height: 352.5px;  
     border: solid 2px;
     border-style: hidden;
     border-radius: 15px;  
-    margin-bottom: 15px;  
+    margin-bottom: 15px; 
+    box-shadow: 0 1px 2px rgb(0 0 0 / 25%); 
 }
 #tijdEnOp{
-    background-color: #ddd;
+    background-color: rgba(221, 221, 221, 0.75);
     min-height: 352.5px;
     border: solid 2px;
     border-style: hidden;
     border-radius: 15px; 
     padding-top: 5px;  
     padding-left: 10px;
-}
-  /*
-    border-radius: 8px;
     box-shadow: 0 1px 2px rgb(0 0 0 / 25%);
-    */
+}
