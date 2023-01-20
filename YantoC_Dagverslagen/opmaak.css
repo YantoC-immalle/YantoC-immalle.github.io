@@ -16,12 +16,14 @@ img{
     padding-bottom: 0px;
 }
 /*  Home page   */
-#FH{
+#FotoKader{
     display: block;
-    height: 720px;
+    height: 620px;
     border: solid 2px;
     border-style: hidden;
     border-radius: 5%;
+    margin: 80px 0 0 0;
+    opacity: 1;
 }
 #kaderH{
     border: solid 2px;
@@ -30,30 +32,29 @@ img{
     background-color: #f3f3f3;
     margin:  15px auto 0px auto ;
     padding: 15px;
-    width: 1250px;
+    width: 1078px;
     
 }
 #titelH{
     position: absolute;
-    top: 140px;
-    left: 360px;
+    top: 80px;
+    left: 685px;
     color: #C31432;
     font-size: 35px;
-    
     height: 40px;
     padding: 15px;
     text-align: center;
-    
 }
 #kader{
+    
     position: absolute;
-    top: 170px;
-    left: 360px;
-    background-color: rgba(221, 221, 221, 0.5);
+    top: 115px;
+    left: 685px;
+    background-color: rgba(221, 221, 221, 0.75);
     border: solid 2px;
     border-style: hidden;
     border-radius: 15px;
-    width: 600px;
+    width: 605px;
     height: 70px;
 }
 /*  Contact */
@@ -247,4 +248,23 @@ img.verslagF{
     padding-top: 5px;  
     padding-left: 10px;
     box-shadow: 0 1px 2px rgb(0 0 0 / 25%);
+}
+.hoofdTitel{
+    text-align: center;
+    font-size: 32px;
+}
+.tussenTitel{
+    text-align: left;
+    font-size: 25px;
+}
+.tekst{
+    text-align: left;
+    font-size: 16px;
+    padding-right: 20px;
+    padding-left: 10px;
+}
+.tijden{
+    text-align: left;
+    font-size: 16px;
+    padding-left: 40px;
 }
