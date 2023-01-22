@@ -191,10 +191,11 @@ footer a{
 
 /*  Verslag Opmaak   */
 img.verslagF{
+ 
     display: block;
     margin: auto;
-    padding-top: auto;
-    padding-bottom: auto;
+    padding-top: 15px;
+     
 }
 .verslag{
     background-color: #f3f3f3;
@@ -232,7 +233,7 @@ img.verslagF{
 }
 #foto{
     background-color: rgba(221, 221, 221, 0.75);
-    min-height: 352.5px;  
+    height: 350px;  
     border: solid 2px;
     border-style: hidden;
     border-radius: 15px;  
@@ -241,7 +242,7 @@ img.verslagF{
 }
 #tijdEnOp{
     background-color: rgba(221, 221, 221, 0.75);
-    min-height: 352.5px;
+    height: 350px;
     border: solid 2px;
     border-style: hidden;
     border-radius: 15px; 
